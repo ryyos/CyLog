@@ -7,11 +7,11 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 DESCRIPTION = 'library used to manage file queues'
 
 setup(
-    name="CyLog",
+    name="CyyLog",
     version=VERSION,
     author="ryyos (Rio Dwi Saputra)",
     author_email="<riodwi12174@gmail.com>",

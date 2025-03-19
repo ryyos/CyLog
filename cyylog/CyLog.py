@@ -7,7 +7,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Union, Optional, Any, Generator
 
-class CyLog:
+class CyyLog:
     """
     A data generator and processor class that reads data from JSON file,
     processes items, and stores processed results.
@@ -252,7 +252,7 @@ class CyLog:
             self.logger.error(click.style(f"Invalid JSON in input file: {self.input_path}", fg="red"))
             
 if __name__ == '__main__':
-    generator = CyLog("queque.json", "output.json")
+    generator = CyyLog("queque.json", "output.json")
     for item in generator.generator():
         try:
             generator.done(item)
