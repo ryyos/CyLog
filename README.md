@@ -1,6 +1,6 @@
 # CyyLog
 
-![Version](https://img.shields.io/badge/version-0.0.1-green.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/version-0.0.3-green.svg?cacheSeconds=2592000)
 ![ProjectImage](https://raw.githubusercontent.com/ryyos/ryyos/refs/heads/main/images/erine/erine.jpg)
 
 ---

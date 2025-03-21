@@ -13,7 +13,7 @@ class CyyLog:
     processes items, and stores processed results.
     """
     
-    def __init__(self, input_path: str, output_path: str):
+    def __init__(self, input_path: str = None, output_path: str = 'output.json'):
         """
         Initialize CyLog with input and output JSON file paths.
         
@@ -248,6 +248,7 @@ class CyyLog:
             
         except FileNotFoundError:
             self.logger.error(click.style(f"Input file not found: {self.input_path}", fg="red"))
+            self.logger.error(click.style(f"if you use the generator you have to enter the input file!", fg="red"))
         except json.JSONDecodeError:
             self.logger.error(click.style(f"Invalid JSON in input file: {self.input_path}", fg="red"))
             
